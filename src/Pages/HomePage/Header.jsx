@@ -1,4 +1,3 @@
-import React from "react";
 import Nav from "../../components/Nav";
 import backgroundImage from "../../assets/homeBackgroundImage.jpg";
 import Reservation from "../../components/Reservation";
@@ -6,7 +5,7 @@ import Reservation from "../../components/Reservation";
 const Header = () => {
   return (
     <header
-      className="max-w-[1440px] mx-auto bg-cover bg-[center_-80px] bg-no-repeat h-[600px] relative rounded-[24px] "
+      className="max-w-[1440px] mx-auto bg-cover bg-[center_-130px] bg-no-repeat h-[600px] relative rounded-[24px] "
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
       <div className="w-full h-full bg-black/40 rounded-[24px] ">

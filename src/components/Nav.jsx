@@ -1,4 +1,3 @@
-import React from "react";
 import airplane from "../assets/airplane.png";
 import icon_bed from "../assets/icon_bed.png";
 import headerLogo from "../assets/Logo.png";
