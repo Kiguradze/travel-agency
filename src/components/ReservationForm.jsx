@@ -19,6 +19,11 @@ const ReservationForm = () => {
 
   const handleActiveClick = () => setIsActive(!isActive);
 
+  const handleReverse = (e) => {
+    e.stopPropagation();
+    setOption(option.split(" - ").reverse().join(" - "));
+  };
+
   return (
     <form className="w-[324px] my-[40px]">
       <div className="flex flex-col">
@@ -31,7 +36,7 @@ const ReservationForm = () => {
             className="py-[18px] px-[16px] flex justify-between items-center border-[1px] border-solid border-black rounded-[4px] relative"
           >
             <span>{option}</span>
-            <img src={choose} alt="" />
+            <img onClick={handleReverse} src={choose} alt="" />
           </div>
           <div
             className={`w-full absolute top-[70px] bg-white shadow-[0_4px_16px_0_rgba(141,_211,_187,_0.15)] rounded-[4px] transition-all duration-150 ${
