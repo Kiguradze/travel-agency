@@ -1,17 +1,10 @@
 import { useState } from "react";
 import choose from "../assets/choose directions.png";
 
-const ReservationForm = () => {
-  const initialOption = "Lahore - Karachi";
+const ReservationForm = ({ label = "Default Label", data }) => {
+  const initialOption = data && data[0];
   const [option, setOption] = useState(initialOption);
   const [isActive, setIsActive] = useState(false);
-
-  const cities = [
-    "Lahore - Karachi",
-    "Tbilisi - Tokyo",
-    "Kutaisi - Amsterdam",
-    // Add more cities as needed
-  ];
 
   const handleClick = (selectedOption) => {
     setOption(selectedOption);
@@ -25,15 +18,15 @@ const ReservationForm = () => {
   };
 
   return (
-    <form className="w-[324px] my-[40px]">
+    <form className="w-full mb-0 2xl:w-auto my-[40px] lg:w-[48%]">
       <div className="flex flex-col">
         <span className="absolute top-[92px] left-[50px] bg-white z-10">
-          From - To
+          {label}
         </span>
         <div className="relative cursor-pointer">
           <div
             onClick={handleActiveClick}
-            className="py-[18px] px-[16px] flex justify-between items-center border-[1px] border-solid border-black rounded-[4px] relative"
+            className="py-[18px] px-[16px] flex justify-between items-center gap-x-[100px]  border-[1px] border-solid border-black rounded-[4px] relative"
           >
             <span>{option}</span>
             <img onClick={handleReverse} src={choose} alt="" />
@@ -45,13 +38,13 @@ const ReservationForm = () => {
                 : "opacity-0  translate-y-[-10px] pointer-events-none "
             }`}
           >
-            {cities.map((city, index) => (
+            {data?.map((item, index) => (
               <div
                 key={index}
-                onClick={() => (handleClick(city), handleActiveClick())}
+                onClick={() => (handleClick(item), handleActiveClick())}
                 className="py-[18px] px-[16px] rounded-[4px] hover:bg-gray-200"
               >
-                {city}
+                {item}
               </div>
             ))}
           </div>

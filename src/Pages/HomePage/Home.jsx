@@ -2,7 +2,7 @@ import Header from "./Header";
 
 const Home = () => {
   return (
-    <div className="p-[30px]">
+    <div className="md:p-[30px]">
       <Header />
     </div>
   );
