@@ -1,6 +1,7 @@
 import airplane from "../assets/airplane black.png";
 import bed from "../assets/icon_bed black.png";
 import ReservationForm from "./ReservationForm";
+import choose from "../assets/choose directions.png";
 
 const Reservation = () => {
   const cities = ["Lahore - Karachi", "Tbilisi - Tokyo", "Kutaisi - Amsterdam"];
@@ -27,7 +28,7 @@ const Reservation = () => {
         </a>
       </div>
       <div className="flex justify-between flex-wrap gap-x-[24px]">
-        <ReservationForm label={"From - To"} data={cities} />
+        <ReservationForm label={"From - To"} data={cities} img={choose} />
         <ReservationForm label={"Trip"} data={trips} />
         <ReservationForm label={"Depart - Return"} data={time} />
         <ReservationForm label={"Passenger - Class"} data={passengerClass} />
