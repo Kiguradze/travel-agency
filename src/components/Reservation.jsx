@@ -21,7 +21,7 @@ const Reservation = () => {
   };
 
   return (
-    <div className="w-full px-2 xl:w-[90%] md:w-full  pt-[16px] sm:px-[32px] pb-[32px]  absolute bottom-[0] left-1/2 translate-x-[-50%] translate-y-[75%] lg:translate-y-[65%]  lg:rounded-[16px] bg-white shadow-[0_4px_16px_0_rgba(141,_211,_187,_0.15)]  ">
+    <div className="w-full px-2 xl:w-[90%] md:w-full  pt-[16px] sm:px-[32px] pb-[32px]  absolute bottom-[0] left-1/2 translate-x-[-50%] translate-y-[75%] lg:translate-y-[65%]  lg:rounded-[16px] bg-white shadow-[0_4px_16px_0_rgba(141,_211,_187,_0.15)]">
       <div className="w-max flex items-center justify-between relative">
         <a
           href="#"
