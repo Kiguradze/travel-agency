@@ -8,7 +8,7 @@ const FlightsAndHotels = () => {
     <section className="w-full px-4 xl:w-[90%] mx-auto mt-[80px]">
       <div className="flex  flex-col items-center justify-between gap-6 md:flex-row ">
         <div className="relative">
-          <div className="w-full h-full absolute bg-gradient-to-b from-transparent to-black opacity-60"></div>
+          <div className="w-full h-full absolute bg-gradient-to-b from-transparent to-black rounded-3xl opacity-60"></div>
           <img src={Flights} alt="" />
           <div className="absolute bottom-6 left-2/4 -translate-x-2/4 flex flex-col items-center text-center">
             <h2 className="mb-2 text-[40px] font-bold text-white">Flights</h2>
@@ -19,7 +19,7 @@ const FlightsAndHotels = () => {
           </div>
         </div>
         <div className="relative">
-          <div className="w-full h-full absolute bg-gradient-to-b from-transparent to-black opacity-60"></div>
+          <div className="w-full h-full absolute bg-gradient-to-b from-transparent to-black rounded-3xl opacity-60"></div>
           <img src={Hotels} alt="" />
           <div className="absolute bottom-6 right-2/4 translate-x-2/4 flex flex-col items-center text-center">
             <h2 className="mb-2 text-[40px] font-bold text-white">Hotels</h2>

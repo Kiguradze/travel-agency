@@ -4,7 +4,7 @@ import img1 from "../assets/reviewsCardImg1.png";
 
 const ReviewCard = ({ title, desk, name, profession, img }) => {
   return (
-    <div className="max-w-[33%] px-6 py-6 rounded-[20px] bg-white shadow-[2px_4px_16px_0_rgba(17,_34,_17,_0.10)] relative">
+    <div className="max-w-full px-6 py-6 rounded-[20px] bg-white shadow-[2px_4px_16px_0_rgba(17,_34,_17,_0.10)] relative xl:max-w-[30%] sm:max-w-[47%]">
       <div className="w-full h-full rounded-[20px] absolute top-[22px] left-[26px] bg-[rgba(141,_211,_187,_0.40)] -z-10"></div>
       <h1 className="text-2xl font-bold">
         “A real sense of community, nurtured”
@@ -34,7 +34,7 @@ const ReviewCard = ({ title, desk, name, profession, img }) => {
         <span className="text-xs font-bold opacity-40">Google</span>
       </div>
       <div className="mt-10">
-        <img src={img1} alt="" />
+        <img src={img1} alt="" className="mx-auto sm:mx-0" />
       </div>
     </div>
   );

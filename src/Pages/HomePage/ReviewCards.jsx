@@ -2,11 +2,11 @@ import ReviewCard from "../../components/ReviewCard";
 
 const ReviewCards = () => {
   return (
-    <div className="mt-[70px] mx-0 pl-4 flex  gap-[50px] xl:mx-[72px] snap-x-[100%]">
+    <section className="w-full mt-[70px] px-4 py-4 flex justify-between gap-[50px] flex-nowrap xl:w-[90%] mx-auto overflow-x-auto overflow-y-hidden">
       <ReviewCard />
       <ReviewCard />
       <ReviewCard />
-    </div>
+    </section>
   );
 };
 
