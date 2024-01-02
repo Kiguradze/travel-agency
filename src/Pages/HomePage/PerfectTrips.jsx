@@ -1,4 +1,5 @@
 import TripCard from "../../components/TripCard";
+import SeeBtn from "../../components/buttons/SeeBtn";
 import tripCardsData from "../../data/tripCardsData/tripCardsData";
 
 const PerfectTrips = () => {
@@ -11,9 +12,7 @@ const PerfectTrips = () => {
             Search Flights & Places Hire to our most popular destinations
           </p>
         </div>
-        <button className="px-4 py-2 text-sm font-medium text-[#112211] border-solid border-[1px] border-[#8DD3BB] rounded hover:bg-[#8DD3BB] duration-150">
-          See more places
-        </button>
+        <SeeBtn text="See more places" />
       </div>
 
       <div className="mt-[40px] flex items-center justify-between gap-8 flex-wrap">
