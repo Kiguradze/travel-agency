@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="max-w-[1440px] mx-auto px-4 relative">
         <div className="w-full h-full mx-auto xl:w-[90%]">
           <div className="w-full pt-[218px] pb-16 flex flex-col justify-between items-center gap-20 xl:flex-row xl:items-start xl:gap-0">
-            <div className="w-full min-h-[305px] px-6 rounded-[20px] mx-auto flex items-center lg:lg:justify-between xl:w-[90%] bg-[#CDEAE1] absolute -top-[22%]  sm:-top-[35%] left-1/2 -translate-x-1/2 ">
+            <div className="w-full min-h-[305px] px-6 rounded-[20px] mx-auto flex items-center shadow-[0_4px_16px_0_rgba(17,_34,_17,_0.05)] lg:lg:justify-between xl:w-[90%] bg-[#CDEAE1] absolute -top-[22%]  sm:-top-[35%] left-1/2 -translate-x-1/2 ">
               <div className="w-full py-6 flex flex-col  items-center text-center lg:w-fit lg:text-left lg:items-start ">
                 <h2 className="max-w-[364px] text-[44px] font-bold leadin-[54px]">
                   Subscribe Newsletter
