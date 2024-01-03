@@ -27,9 +27,6 @@ const ReviewCards = () => {
             />
           );
         })}
-        {/* <ReviewCard />
-        <ReviewCard />
-        <ReviewCard /> */}
       </div>
     </section>
   );
