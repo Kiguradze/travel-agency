@@ -4,7 +4,7 @@ import reviewCardsData from "../../data/reviewCardsData/reviewCardsData";
 
 const ReviewCards = () => {
   return (
-    <section className="w-full mt-[70px] px-4 py-4 flex flex-col justify-between   xl:w-[90%] xl:mx-auto ">
+    <section className="w-full mt-[70px] pl-4 pr-[26px] py-4 flex flex-col justify-between   xl:w-[90%] xl:mx-auto ">
       <div className="flex flex-col items-center justify-between gap-5 sm:flex-row">
         <div>
           <h2 className="text-[32px] font-semibold ">Reviews</h2>
