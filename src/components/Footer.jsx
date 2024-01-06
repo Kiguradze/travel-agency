@@ -28,12 +28,12 @@ const Footer = () => {
                 </div>
                 <form
                   action=""
-                  className="w-full mt-4 flex flex-col items-center justify-center gap-4 sm:flex-row "
+                  className="w-full mt-4 flex flex-col items-center justify-center gap-4 lg:justify-normal sm:flex-row "
                 >
                   <input
                     type="text"
                     placeholder="Your email address"
-                    className="w-full px-4 py-[18px] rounded sm:w-[457px]"
+                    className="w-full px-4 py-[18px] rounded focus:ring-2  outline-none sm:w-[457px]"
                   />
                   <button className="w-full px-4 py-[18px] text-sm font-semibold bg-black text-white rounded sm:w-fit">
                     Subscribe
