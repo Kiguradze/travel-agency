@@ -5,7 +5,7 @@ import Reservation from "../../components/Reservation";
 const Header = () => {
   return (
     <header
-      className="max-w-[1440px] mx-auto bg-cover bg-[center_-130px] bg-no-repeat h-[600px] relative md:rounded-[24px] "
+      className="max-w-[1440px] mx-auto  bg-cover bg-[center_-130px] bg-no-repeat h-[600px] relative md:rounded-[24px] md:mt-6"
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
       <div className="w-full h-full bg-black/40 md:rounded-[24px] ">
